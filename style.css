@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+.role{
+    background:#e74c3c;
+    font-size:18px;
+    letter-spacing: 1px;
+}
+.right-col{
+    background: #2980b9;
+    color: #fff;
+}
+.left-col{
+    background: #27ae60;
+}
+
+.image-container{
+    height: 240px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.head-section{
+
+    padding: 10px;
+}
+
+.short-intro{
+    padding: 10px;
+}
+
+.sections{
+    padding: 10px;
+}
+
+.name-container{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-bar{
+    background: #fff;
+
+}
+.adjust-padding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.nav-link{
+    border-top: solid 1px #fff;
+    border-right: solid 1px #fff;
+    background: #27ae60;
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+
+}
+.nav-link:hover{
+    background: #83ac7b;
+}
+a{
+    text-decoration: none;
+}
+#footer{
+    font-family: 'Ravi Prakash', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* slick slider */
+
+.slider {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+@media(max-width:460px){
+
+}
+
+/*Flexbox Practice*/
+/* 
+.my-flex-container{
+    border: 2px solid green;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.my-flex-container-column{
+    border: 2px solid green;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.my-flex-item{
+    background-color: lightgrey;
+    border: 1px dotted grey;
+    height: 48px;
+}
+.my-flex-item-2{
+    background-color: lightgrey;
+    border: 1px dotted grey;
+    height: 96px;
+} */
+
