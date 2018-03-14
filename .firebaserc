@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "webdemo-390eb",
+    "staging": "webdemo-390eb"
+  }
+}

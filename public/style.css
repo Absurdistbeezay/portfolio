@@ -1,0 +1,200 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+.role{
+    background:#e74c3c;
+    font-size:18px;
+    letter-spacing: 1px;
+}
+.right-col{
+    background: #2980b9;
+    color: #fff;
+}
+.left-col{
+    background:#34495e;
+    color: #ecf0f1;
+}
+
+/* .image-container{
+    height: 340px;
+} */
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.head-section{
+
+    padding: 10px;
+}
+.section-container{
+    background-color: #ecf0f1;
+    box-shadow: 5px 5px 5px #b9b9b9;
+    padding: 20px;
+}
+.short-intro{
+    padding: 10px;
+}
+
+.sections{
+    padding: 10px;
+}
+
+.name-container{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-bar{
+    background: #fff;
+
+}
+.adjust-padding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.nav-link{
+    border-top: solid 1px #fff;
+    border-right: solid 1px #fff;
+    background: #27ae60;
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+
+}
+.nav-link:hover{
+    background: #83ac7b;
+}
+a{
+    text-decoration: none;
+}
+#footer{
+    font-family: 'Ravi Prakash', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+.card{
+    margin-bottom: 10px;
+}
+.card img{
+    margin-top: 10px;
+}
+
+/* slick slider */
+
+.slider {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.slick-slide {
+  margin: 0px 15px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+@media(max-width:700px){
+    #rightDiv{
+       flex-direction: column-reverse !important;
+    }
+    .slick-slide {
+        margin: 0px 4px;
+      }
+}
+
+
+/*Contact Form*/
+
+   #form{
+       display: flex;
+       flex-direction: column;
+   }
+   .form-row{
+       display:flex;
+       margin-bottom: 16px;
+
+   }
+   input[type="text"], textarea{
+    background: #f6f6f7;
+    border-radius: 3px;
+   }
+   
+   .labelDiv{
+    flex: 1;
+   }
+   .form-child{
+       flex: 4;
+    
+   }
+   .form-row input{
+       height: 30px;
+       font-size: 20px;
+   }
+   .form-row textarea{
+       height: 200px;
+       font-size: 18px;
+   }
+   .btn{
+       background: #1e2ba0;
+       padding: 6px 10px 6px 10px;
+       color: #e9ebe6;
+       border: 1px #1e3b10;
+       border-radius: 6px;
+       font-size: 16px;
+       cursor:pointer;
+   }
+   .btnDiv{
+       justify-content: center;
+   }
+
+   @media(max-width: 460px){
+       .form-row{
+           flex-direction: column;
+  
+   }
+   }
+
+
+
+/*Flexbox Practice*/
+/* 
+.my-flex-container{
+    border: 2px solid green;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.my-flex-container-column{
+    border: 2px solid green;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.my-flex-item{
+    background-color: lightgrey;
+    border: 1px dotted grey;
+    height: 48px;
+}
+.my-flex-item-2{
+    background-color: lightgrey;
+    border: 1px dotted grey;
+    height: 96px;
+} */
+
