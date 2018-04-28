@@ -11,8 +11,6 @@ $(document).ready(function(){
             prevArrow: false,
             nextArrow: false
           });
-
- 
 });
 
   
