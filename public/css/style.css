@@ -169,17 +169,18 @@ input[type="text"], textarea{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    background-color:#444;
+    color: #fff;
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
     opacity: 0.3;
-
+    width: 50px;
   }
 
   #myBtn:hover {
-    background-color: #555;
+    background-color: #111;
+    opacity: 1;
   }
 /* Media Queries */
 @media(max-width: 460px){
