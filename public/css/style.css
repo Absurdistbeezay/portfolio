@@ -84,6 +84,14 @@ a {
     margin-top: 10px;
 }
 
+.fa-heart {
+    color: #a51111;
+}
+
+.fa-coffee {
+    color: #c5aa10;
+}
+
 .card {
     margin-bottom: 10px;
 }
