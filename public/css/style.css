@@ -1,11 +1,13 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     color: #222;
+    font-size: 18px;
 }
 
 .quote {
     font-family: 'Amita', cursive;
     color: #f1d2d2;
+    font-size: 20px;
 }
 
 .role {
