@@ -134,6 +134,10 @@ svg {
     max-width: 64px;
 }
 
+.card-content h4{
+    color: #046aa5;
+}
+
 /*Contact Form*/
 
 #form {
